@@ -6,10 +6,8 @@ puts "Hello, #{name}!"
 # Example 2: Input with conversion
 puts "Enter your age:"
 age = gets.chomp.to_i
-puts "You are #{age} years old."
-
-# Example X: Verifying birth year
-puts "You are born in #{2026 - age}."
+born_year = 2026 - age
+puts "You are #{age} years old and you born in #{born_year}."
 
 # Example 3: Multiple inputs
 puts "Enter your first name:"
