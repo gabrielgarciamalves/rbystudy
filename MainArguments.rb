@@ -15,3 +15,6 @@ first_name = gets.chomp
 puts "Enter your last name:"
 last_name = gets.chomp
 puts "Full name: #{first_name} #{last_name}"
+
+# Resume data obtain from user
+puts "All data obtained from you are: #{first_name} #{last_name}, age: #{age}, born in: #{born_year}"
