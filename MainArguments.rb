@@ -30,5 +30,7 @@ puts "Your name reversed is #{full_name.reverse}"
 puts "Your name length is #{full_name.length}"
 
 new_name = full_name.gsub("a","X")
+#replace case-sensitive "a" with "X"
+#if i want to replace "A" as well, i can use gsub(/a/i,"X") to ignore case sensitivity
 
 puts new_name
