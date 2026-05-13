@@ -29,6 +29,6 @@ puts "Your full name is #{full_name}"
 puts "Your name reversed is #{full_name.reverse}"
 puts "Your name length is #{full_name.length}"
 
-new_name = first_name.gsub("g","X")
+new_name = full_name.gsub("A","X")
 
 puts new_name
