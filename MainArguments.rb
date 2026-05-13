@@ -28,3 +28,7 @@ puts "All data obtained from you are: #{first_name} #{last_name}, age: #{age}, b
 puts "Your full name is #{full_name}"
 puts "Your name reversed is #{full_name.reverse}"
 puts "Your name length is #{full_name.length}"
+
+new_name = first_name.gsub("g","X")
+
+puts new_name
