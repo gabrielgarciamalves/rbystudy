@@ -16,5 +16,9 @@ puts "Enter your last name:"
 last_name = gets.chomp
 puts "Full name: #{first_name} #{last_name}"
 
+# Example 4: Multiply age from user input
+age_multiplied = age * 2
+puts "Your age multiplied by 2 is: #{age_multiplied}"
+
 # Resume data obtain from user
 puts "All data obtained from you are: #{first_name} #{last_name}, age: #{age}, born in: #{born_year}"
