@@ -8,6 +8,9 @@ puts "Enter your age:"
 age = gets.chomp.to_i
 puts "You are #{age} years old."
 
+# Example X: Verifying birth year
+puts "You are born in #{2026 - age}."
+
 # Example 3: Multiple inputs
 puts "Enter your first name:"
 first_name = gets.chomp
