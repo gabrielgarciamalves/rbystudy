@@ -4,3 +4,7 @@ Y = 4
 calculation = X / Y
 
 puts calculation
+
+new_calculation = Y.to_f / X
+
+puts new_calculation
