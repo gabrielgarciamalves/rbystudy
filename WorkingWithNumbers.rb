@@ -17,3 +17,6 @@ puts new_calculation
 # Utilizando numeros, matematica e strings #
 # Multiplicar o texto informado pela qtde de vezes desejada #
 puts "*" * 10
+
+# função times para texto / mesmo resultado de usar matematica com string e integer #
+10.times {puts "Test :) "}
