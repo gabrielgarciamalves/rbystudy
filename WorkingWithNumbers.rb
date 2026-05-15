@@ -13,3 +13,7 @@ B = 4
 new_calculation = A.to_f / B
 
 puts new_calculation
+
+# Utilizando numeros, matematica e strings #
+# Multiplicar o texto informado pela qtde de vezes desejada #
+puts "*" * 10
