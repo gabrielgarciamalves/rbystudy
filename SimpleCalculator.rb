@@ -1,9 +1,10 @@
 puts "Simple Calculator"
-20.times { print "-\n" }
+20.times { print "-" }
+puts
 puts "Enter a number:"
-num1 = gets.chomp.to_f
+num1 = gets.chomp
 puts "Enter another number:"
-num2 = gets.chomp.to_f
+num2 = gets.chomp
 
 puts "First number multiplied by the second number is:
-#{num1 * num2}."
+#{num1.to_f * num2.to_f}"
