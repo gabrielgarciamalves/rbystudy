@@ -19,4 +19,4 @@ puts new_calculation
 puts "*" * 10
 
 # função times para texto / mesmo resultado de usar matematica com string e integer #
-10.times {print "Test :)"}
+10.times {puts "Test :)"}
