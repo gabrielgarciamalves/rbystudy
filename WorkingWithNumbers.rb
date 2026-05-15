@@ -5,6 +5,6 @@ calculation = X / Y
 
 puts calculation
 
-new_calculation = Y / X
+new_calculation = X / Y
 
 puts new_calculation.to_f
