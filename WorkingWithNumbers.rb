@@ -5,6 +5,9 @@ calculation = X / Y
 
 puts calculation
 
-new_calculation = X / Y
+A = 10
+B = 4
 
-puts new_calculation.to_f
+new_calculation = A.to_f / B
+
+puts new_calculation
