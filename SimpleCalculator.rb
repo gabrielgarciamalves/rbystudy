@@ -1,5 +1,5 @@
 puts "Simple Calculator"
-20.times {print "-"}
+20.times { print "-" }
 puts "Enter a number:"
 num1 = gets.chomp
 puts "Enter another number:"
